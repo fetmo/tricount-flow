@@ -1,0 +1,6 @@
+description,amount,payer,split,category,date,type,to
+Dinner at Luigi,45.00,Moritz,Moritz|Anna,food,25.09.2026,,
+Groceries,32.50,Anna,,groceries,26.09.2026,,
+Taxi home,20,Moritz,Moritz|Anna,transport,26.09,,
+Concert tickets,120.00,Moritz,,fun,2026-09-27,,
+Payback to Anna,20.00,Moritz,,,27.09.2026,reimbursement,Anna

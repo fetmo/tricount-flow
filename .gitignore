@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# tricount-flow local state (never commit device credentials or share links)
+credentials.json
+tricount_credentials.json
+config.toml
+.tricount-flow/
+
+# Local agent/plugin artifacts (not part of the project)
+.claude-flow/
+.claude/
+ruvector.db
+*.db
