@@ -53,10 +53,10 @@ def _guard(fn):
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
-def create_app() -> FastAPI:
+def create_app(core: Core | None = None) -> FastAPI:
     app = FastAPI(title="Tricount Flow")
     app.mount("/static", StaticFiles(directory=str(HERE / "static")), name="static")
-    core = Core()
+    core = core if core is not None else Core()
 
     @app.get("/", response_class=HTMLResponse)
     def index(request: Request):

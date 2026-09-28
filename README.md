@@ -19,6 +19,25 @@ which talks to Tricount's **private, reverse-engineered API**.
 > and edit it, and every change you make is applied to the shared tricount for
 > **everyone**, immediately. Use it for your own tricounts, at your own risk.
 
+## Screenshots
+
+The local web UI — theme-aware (light & dark), with live balances and settlement
+suggestions:
+
+<p align="center">
+  <img src="docs/screenshot-web-light.png" width="46%" alt="Web UI, light theme" />
+  &nbsp;
+  <img src="docs/screenshot-web-dark.png" width="46%" alt="Web UI, dark theme" />
+</p>
+
+The CLI:
+
+<p align="center">
+  <img src="docs/cli-balances.svg" width="70%" alt="tricount CLI: add an expense and view balances" />
+</p>
+
+<sub>Screenshots use fictional demo data.</sub>
+
 ## Install
 
 Requires [uv](https://docs.astral.sh/uv/) and Python 3.12+.

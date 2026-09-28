@@ -20,3 +20,6 @@ config.toml
 .claude/
 ruvector.db
 *.db
+
+# Playwright MCP tooling artifacts
+.playwright-mcp/
